@@ -1,0 +1,22 @@
+Package: golem.sneattemplate
+Title: Sneat template
+Version: 0.0.0.9000
+Authors@R: 
+    person("Dimitri", "Bessa", , "dimitribessa@gmail.com", role = c("aut", "cre"))
+Description: A shiny template for dashboards
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    pkgload,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Depends: 
+    R (>= 2.10)
